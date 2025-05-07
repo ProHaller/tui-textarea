@@ -33,6 +33,7 @@ impl From<KeyCode> for Key {
             KeyCode::PageDown => Key::PageDown,
             KeyCode::Esc => Key::Esc,
             KeyCode::F(x) => Key::F(x),
+            KeyCode::BackTab => Key::Tab,
             _ => Key::Null,
         }
     }
